@@ -1,0 +1,24 @@
+{
+  "name": "zaverecnekodovani",
+  "version": "1.0.0",
+  "description": "An assignment for the web applications subject. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tomasan7/ZaverecneKodovani.git"
+  },
+  "author": "Tomasan7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tomasan7/ZaverecneKodovani/issues"
+  },
+  "homepage": "https://github.com/Tomasan7/ZaverecneKodovani#readme",
+  "dependencies": {
+    "@material/web": "^1.2.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.10.0"
+  }
+}
