@@ -20,5 +20,8 @@
     "@material/web": "^1.2.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "rollup": "^4.10.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
   }
 }
