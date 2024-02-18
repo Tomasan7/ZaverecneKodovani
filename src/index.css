@@ -22,6 +22,12 @@ html, head, body {
     position: relative;
 }
 
+header
+{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
 .logo
 {
     width: 300px;
@@ -48,4 +54,10 @@ html, head, body {
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
+}
+
+.header-line {
+    width: 100vw;
+    height: 20px;
+    background-color: var(--md-sys-color-surface-variant);
 }
