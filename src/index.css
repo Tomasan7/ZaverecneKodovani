@@ -12,6 +12,16 @@ html, head, body {
     --md-ref-typeface-plain: system-ui;
 }
 
+.content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    position: relative;
+}
+
 .logo
 {
     width: 300px;
