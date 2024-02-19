@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html, head, body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --md-ref-typeface-brand: 'Roboto';
+    --md-ref-typeface-plain: system-ui;
+}
+
+.page-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+header
+{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.logo
+{
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+}
+
+.specialization
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .1s;
+}
+
+.specialization:hover
+{
+    scale: 1.03;
+}
+
+.specialization p
+{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-line {
+    width: 100%;
+    height: 20px;
+    background-color: var(--md-sys-color-surface-variant);
+}
