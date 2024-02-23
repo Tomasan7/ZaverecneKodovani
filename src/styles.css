@@ -7,27 +7,29 @@ html, head, body {
     padding: 0;
 }
 
-.page-container
+body
 {
-    margin-top: 16px;
-    column-gap: 16px;
-    width: 80%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: start;
+    font-family: 'Roboto', sans-serif;
 }
 
-.page-content
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+body
 {
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
 }
 
 header
 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 80%;
     margin-bottom: 10px;
     padding: 5px 0;
@@ -38,6 +40,14 @@ header
     width: 300px;
     height: auto;
     object-fit: contain;
+}
+
+.specialization-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-grow: 1;
 }
 
 .specialization
@@ -65,6 +75,25 @@ header
     width: 100%;
     height: 20px;
     background-color: var(--md-sys-color-surface-variant);
+}
+
+.page-container
+{
+    margin-top: 16px;
+    column-gap: 16px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.page-content
+{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: start;
 }
 
 .page-headline
