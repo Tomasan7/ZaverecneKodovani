@@ -7,12 +7,23 @@ html, head, body {
     padding: 0;
 }
 
+.page-container
+{
+    margin-top: 16px;
+    column-gap: 16px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
 .page-content
 {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     align-items: start;
-    width: 80%;
 }
 
 header
@@ -58,7 +69,6 @@ header
 
 .page-headline
 {
-    margin-top: 12px;
     display: flex;
     flex-direction: row;
     column-gap: 8px;
@@ -68,4 +78,50 @@ header
 .page-headline md-icon
 {
     --md-icon-size: 52px;
+}
+
+.sidebar
+{
+    flex-shrink: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+}
+
+.navbar
+{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    row-gap: 10px;
+    padding: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.navbar-item
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: .1s;
+}
+
+{
+    --md-icon-size: 24px;
+}
+
+.navbar-item:not(.selected):hover
+{
+    background-color: rgba(0, 0, 0, 0.075);
+    cursor: pointer;
+}
+
+.navbar-item.selected
+{
+    background-color: var(--md-sys-color-secondary-container);
+    cursor: default;
 }

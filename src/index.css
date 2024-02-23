@@ -1,1 +1,46 @@
+.articles
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    width: 100%;
+}
 
+.article
+{
+    width: 360px;
+    max-height: 360px;
+    border-radius: 12px;
+    background-color: var(--md-sys-color-primary-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.article img
+{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+}
+
+.article-text-content
+{
+    padding: 16px;
+}
+
+.article-title
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--md-sys-color-on-surface);
+}
+
+.article-description
+{
+    font-size: 14px;
+    color: var(--md-sys-color-on-surface-variant);
+    margin-top: 32px;
+}
