@@ -19,6 +19,12 @@
     align-items: stretch;
 }
 
+.article:hover
+{
+    cursor: pointer;
+    filter: brightness(.95);
+}
+
 .article img
 {
     width: 100%;
