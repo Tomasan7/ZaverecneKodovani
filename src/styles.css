@@ -154,3 +154,49 @@ header
     background-color: var(--md-sys-color-secondary-container);
     cursor: default;
 }
+
+@media screen and (max-width: 1340px)
+{
+    header
+    {
+        flex-direction: column;
+        row-gap: 16px;
+        width: 95%;
+    }
+
+    .specialization-container
+    {
+        flex-wrap: wrap;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .login-btn
+    {
+        width: 100%;
+    }
+
+    .page-container
+    {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        width: 95%;
+    }
+
+    .sidebar
+    {
+        width: 100%;
+        row-gap: 16px;
+    }
+
+    .navbar
+    {
+        width: 100%;
+        align-items: stretch;
+    }
+
+    .page-headline
+    {
+        align-self: center;
+    }
+}
