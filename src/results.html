@@ -63,7 +63,17 @@
             <md-icon>workspace_premium</md-icon>
             Výsledky příjmacího řízení
         </h1>
-        <!-- TODO: Update the header above and finish the page -->
+        <p id="instructions">Zadejte své jméno, příjmení a datum narození a systém ověří, zdali jste byli přijati.</p>
+        <form>
+            <div class="fields">
+                <md-filled-text-field label="Jméno"></md-filled-text-field>
+                <md-filled-text-field label="Přijmení"></md-filled-text-field>
+                <md-filled-text-field label="Datum" placeholder="dd.mm.yyyy"></md-filled-text-field>
+            </div>
+            <div id="button-container">
+                <md-filled-button id="submit-btn">Ověřit</md-filled-button>
+            </div>
+        </form>
     </div>
     <div class="sidebar">
         <div class="navbar">
